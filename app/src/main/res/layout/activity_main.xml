@@ -123,6 +123,33 @@
             android:tag="8"
             />
     </GridLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/playAgainLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/winnerMessage"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+        />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/playAgainButton"
+            android:text="@string/playAgain"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playAgain"
+            />
+    </LinearLayout>
 
 
 </RelativeLayout>

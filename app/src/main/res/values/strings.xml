@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Connect3</string>
     <string name="blue">Blue Image</string>
+    <string name="playAgain">Play Again</string>
 </resources>
